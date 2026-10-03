@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I_0M-mE__rS_ION — The Fight Against AIDS</title>
+<style>
+  :root{
+    --red:#c81e3e;
+    --red-dark:#8f1230;
+    --cream:#faf6f0;
+    --ink:#241d1b;
+    --muted:#6d625e;
+    --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:Georgia,'Times New Roman',serif;
+    color:var(--ink);
+    background:var(--cream);
+    line-height:1.65;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  header{
+    background:var(--red);
+    color:var(--white);
+    padding:18px 0;
+    position:sticky;top:0;z-index:10;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+  }
+  header .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+  .brand{font-size:1.15rem;font-weight:bold;letter-spacing:.5px;}
+  nav a{
+    color:var(--white);
+    text-decoration:none;
+    margin-left:20px;
+    font-size:.95rem;
+  }
+  nav a:hover{text-decoration:underline;}
+  .hero{
+    background:linear-gradient(135deg,var(--red) 0%,var(--red-dark) 100%);
+    color:var(--white);
+    padding:90px 0 80px;
+    text-align:center;
+  }
+  .hero h1{font-size:2.6rem;margin-bottom:16px;letter-spacing:1px;}
+  .hero p{font-size:1.2rem;max-width:640px;margin:0 auto 28px;}
+  .btn{
+    display:inline-block;
+    background:var(--white);
+    color:var(--red);
+    padding:14px 30px;
+    font-weight:bold;
+    text-decoration:none;
+    border-radius:40px;
+    font-size:1rem;
+  }
+  .btn:hover{background:#ffe3e8;}
+  section{padding:70px 0;}
+  section h2{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:12px;
+    color:var(--red);
+  }
+  .sub{text-align:center;color:var(--muted);max-width:640px;margin:0 auto 44px;}
+  .grid{display:grid;gap:24px;}
+  .g-3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}
+  .g-2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));}
+  .card{
+    background:var(--white);
+    border-radius:12px;
+    padding:26px;
+    box-shadow:0 3px 12px rgba(0,0,0,.06);
+    border-top:4px solid var(--red);
+  }
+  .card h3{color:var(--red-dark);margin-bottom:10px;font-size:1.15rem;}
+  .team-card{text-align:center;border-top:4px solid var(--red);}
+  .team-card .role{color:var(--muted);font-size:.9rem;margin-bottom:10px;font-style:italic;}
+  .facts{list-style:none;}
+  .facts li{padding:14px 0;border-bottom:1px solid #e8e0d8;display:flex;gap:14px;align-items:flex-start;}
+  .facts li:last-child{border-bottom:none;}
+  .facts strong{color:var(--red-dark);white-space:nowrap;}
+  .ribbon{
+    background:var(--red);
+    color:var(--white);
+    text-align:center;
+    padding:16px;
+    font-weight:bold;
+    letter-spacing:1px;
+  }
+  footer{
+    background:var(--ink);
+    color:#cfc6c0;
+    padding:40px 0;
+    text-align:center;
+    font-size:.9rem;
+  }
+  footer a{color:var(--white);}
+  @media(max-width:600px){
+    .hero h1{font-size:1.9rem;}
+    nav a{margin-left:12px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">I_0M-mE__rS_ION</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#team">Team</a>
+      <a href="#facts">Facts</a>
+      <a href="#resources">Resources</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>The Fight Against AIDS</h1>
+    <p>Led by Anthony Middleton, I_0M-mE__rS_ION is a community-driven campaign to end stigma, expand testing, and make prevention care accessible to everyone.</p>
+    <a class="btn" href="#resources">Get Tested &amp; Get Support</a>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <h2>Our Mission</h2>
+    <p class="sub">AIDS is preventable and treatable. We work to make that a reality in every community — starting with knowledge, dignity, and access.</p>
+    <div class="grid g-3">
+      <div class="card">
+        <h3>Educate</h3>
+        <p>Clear, accurate information about HIV transmission, prevention, and treatment — so people can make informed choices.</p>
+      </div>
+      <div class="card">
+        <h3>Destigmatize</h3>
+        <p>People living with HIV deserve respect, not judgment. We fight the myths and shame that keep people from testing and care.</p>
+      </div>
+      <div class="card">
+        <h3>Empower</h3>
+        <p>We connect people to testing, PrEP, treatment, and peer support — removing barriers wherever we find them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" style="background:#f3ece4;">
+  <div class="wrap">
+    <h2>Our Team</h2>
+    <p class="sub">A group of dedicated advocates leading the fight across borders and communities.</p>
+    <div class="grid g-3">
+      <div class="card team-card">
+        <h3>Anthony Middleton</h3>
+        <div class="role">Founder &amp; Campaign Lead</div>
+        <p>Brings the campaign together with a focus on access, education, and community trust.</p>
+      </div>
+      <div class="card team-card">
+        <h3>Irish Rose</h3>
+        <div class="role">Community Outreach</div>
+        <p>Builds grassroots connections and brings prevention resources into local neighborhoods.</p>
+      </div>
+      <div class="card team-card">
+        <h3>Kristoforandchaz</h3>
+        <div class="role">Youth Engagement</div>
+        <p>Makes prevention relevant and accessible for younger generations through schools and social media.</p>
+      </div>
+      <div class="card team-card">
+        <h3>British Tulip</h3>
+        <div class="role">Policy &amp; Advocacy</div>
+        <p>Works with partners to expand access to testing and treatment across regions.</p>
+      </div>
+      <div class="card team-card">
+        <h3>Hong Kong</h3>
+        <div class="role">International Programs</div>
+        <p>Bridges global knowledge and local action, supporting prevention efforts worldwide.</p>
+      </div>
+      <div class="card team-card">
+        <h3>Lord Stanley</h3>
+        <div class="role">Research &amp; Education</div>
+        <p>Translates the latest science into clear, practical guidance for everyone.</p>
+      </div>
+      <div class="card team-card">
+        <h3>Deshaun Moss</h3>
+        <div class="role">Peer Support</div>
+        <p>Leads our peer-support network — a steady, reassuring presence who helps people navigate testing and care with confidence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="facts">
+  <div class="wrap">
+    <h2>Know the Facts</h2>
+    <p class="sub">Reliable information is the first line of defense.</p>
+    <div class="card">
+      <ul class="facts">
+        <li><strong>Prevention:</strong> PrEP reduces the risk of getting HIV from sex by about 99% when taken as prescribed.</li>
+        <li><strong>U=U:</strong> Undetectable = Untransmittable. People living with HIV who maintain an undetectable viral load cannot pass the virus to partners.</li>
+        <li><strong>Testing:</strong> Regular testing is quick, often free, and the only way to know your status for sure.</li>
+        <li><strong>Treatment:</strong> Modern treatment allows people with HIV to live long, healthy lives.</li>
+        <li><strong>Stigma:</strong> Stigma keeps people from testing and care. Kindness saves lives.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="resources" style="background:#f3ece4;">
+  <div class="wrap">
+    <h2>Get Support</h2>
+    <p class="sub">You're not alone. Help is available, confidential, and often free.</p>
+    <div class="grid g-2">
+      <div class="card">
+        <h3>Find a Test</h3>
+        <p>Local clinics, community health centers, and at-home test kits make testing easier than ever. Search for a free or low-cost testing site near you.</p>
+      </div>
+      <div class="card">
+        <h3>PrEP &amp; Treatment</h3>
+        <p>Talk to a healthcare provider about PrEP for prevention or treatment options if you're living with HIV. Many programs offer financial assistance.</p>
+      </div>
+      <div class="card">
+        <h3>Peer Support</h3>
+        <p>Our peer-support network, led by Deshaun Moss, connects you with people who understand — for guidance, encouragement, and a listening ear.</p>
+      </div>
+      <div class="card">
+        <h3>Talk to Someone</h3>
+        <p>If you need immediate support or have questions, reach out to a local HIV/AIDS service organization or a confidential helpline.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ribbon">Knowledge. Dignity. Access. The fight continues.</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <p><strong>I_0M-mE__rS_ION</strong> — The Fight Against AIDS</p>
+    <p>Led by Anthony Middleton</p>
+    <p>Contact: <a href="mailto:contact@example.org">contact@example.org</a></p>
+    <p style="margin-top:12px;">&copy; 2026 I_0M-mE__rS_ION. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
